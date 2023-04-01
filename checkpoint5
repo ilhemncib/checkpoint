@@ -1,0 +1,19 @@
+Algorithm check5
+var nbr_voy, nbr_mot, l :Integer:=0
+c: char str: String
+begin
+while (c<>".") then 
+write("donner un caractere")
+read(c)
+l=l+1
+str=str+c
+
+if (c="") then
+nbr_mot=nbr_mot+1
+else if(c="a" or c="e" or c="u" or c="i"
+or c="A"or c="E" or c="I" or c="u") then 
+nbr_voy= nbr_voy+1
+end 
+end
+write("la phrase saisit est", str)
+end
